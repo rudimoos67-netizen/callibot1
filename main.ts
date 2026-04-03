@@ -1,0 +1,6 @@
+calliBot2.motor(C2Motor.beide, C2Dir.vorwaerts, 50)
+basic.pause(1000)
+calliBot2.motor(C2Motor.links, C2Dir.vorwaerts, 50)
+calliBot2.motor(C2Motor.rechts, C2Dir.vorwaerts, 50)
+basic.pause(500)
+calliBot2.motorStop(C2Motor.beide, C2Stop.Bremsen)
